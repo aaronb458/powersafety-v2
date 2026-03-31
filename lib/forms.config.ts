@@ -4,7 +4,7 @@ export const formsConfig = {
     legalEntity: "Power Safety Service, LLC",
     tagline: "The All-Star Team of California Traffic Control Services",
     location: "Lodi, CA",
-    foundedYear: 2024,
+    foundedYear: 2025,
     description:
       "Full-service traffic control for Northern California. Traffic control, flagging, traffic control plans, permits, equipment rentals, fire watch, and special event traffic management.",
     url: "https://powersafety.com",
@@ -12,13 +12,14 @@ export const formsConfig = {
   contact: {
     phone: "(916) 573-7133",
     phoneHref: "tel:+19165737133",
-    email: "beadles@powersafety.com",
-    address: "5400 E Harney Lane, Lodi, CA 95240",
+    email: "info@powersafety.com",
+    address: "2600 Reynolds Parkway, STE 140, PMB 175, Lodi, CA 95240",
     hours: "24/7",
     emergencyNote: "24/7 availability",
   },
   credentials: [
     { name: "ATSSA", label: "ATSSA Certified" },
+    { name: "IBEW 1245", label: "IBEW Local 1245" },
     { name: "PE/TE", label: "Licensed PE & TE Engineers" },
     { name: "SBE", label: "SBE Certified" },
     { name: "MUTCD", label: "MUTCD Compliant" },
@@ -347,6 +348,10 @@ export const formsConfig = {
         name: "PE/TE",
         fullName: "Licensed Professional & Traffic Engineers",
       },
+    {
+      name: "IBEW 1245",
+      fullName: "International Brotherhood of Electrical Workers",
+    },
       { name: "SBE", fullName: "Small Business Enterprise" },
       { name: "Caltrans", fullName: "Caltrans Compliant" },
     ],
@@ -480,7 +485,7 @@ export const formsConfig = {
       buttonText: "Submit Application",
       successMessage:
         "Application received. We will review your qualifications and reach out if there is a fit.",
-      errorMessage: "Something went wrong. Email us at beadles@powersafety.com.",
+      errorMessage: "Something went wrong. Email us at info@powersafety.com.",
       fields: {
         positionOptions: ["Flagger", "Traffic Control Technician", "Traffic Engineer", "Fire Watch", "Equipment Operator", "Project Manager", "Administrative", "Other"],
         availabilityOptions: ["Immediately", "2 Weeks", "1 Month", "Flexible"],
@@ -530,7 +535,7 @@ export const formsConfig = {
     },
     {
       question: "How do I get a quote?",
-      answer: "You can request a quote through our website at powersafety.com/quote, call us at (916) 573-7133, or email beadles@powersafety.com. We typically respond within 24 hours with a detailed quote for your project.",
+      answer: "You can request a quote through our website at powersafety.com/quote, call us at (916) 573-7133, or email info@powersafety.com. We typically respond within 24 hours with a detailed quote for your project.",
     },
   ],
   nav: [
@@ -548,10 +553,10 @@ export const formsConfig = {
     description:
       "Full-service traffic control for Northern California. Traffic control, flagging, traffic control plans, permits, equipment rentals, fire watch, and special event traffic management.",
     telephone: "(916) 573-7133",
-    email: "beadles@powersafety.com",
+    email: "info@powersafety.com",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "5400 E Harney Lane",
+      streetAddress: "2600 Reynolds Parkway, STE 140, PMB 175",
       addressLocality: "Lodi",
       addressRegion: "CA",
       postalCode: "95240",

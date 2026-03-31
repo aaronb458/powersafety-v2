@@ -55,7 +55,7 @@ export function FamilySection() {
                   className="text-3xl font-black text-primary"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
-                  2024
+                  2025
                 </div>
                 <div className="text-xs text-text-muted uppercase tracking-wider mt-1">
                   Founded
